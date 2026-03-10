@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Box, Container, Typography, Grid, TextField, Button, Paper } from '@mui/material';
+import { Box, Container, Typography, Grid, TextField, Button, Paper, Snackbar, Alert } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -9,15 +9,39 @@ import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
 const ContactSection = () => {
     const [status, setStatus] = useState('idle'); // idle, sending, success
+    const [openSnackbar, setOpenSnackbar] = useState(false);
 
-    const handleSubmit = (e) => {
+    const handleCloseSnackbar = (event, reason) => {
+        if (reason === 'clickaway') {
+            return;
+        }
+        setOpenSnackbar(false);
+    };
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus('sending');
-        // Mock API call
-        setTimeout(() => {
+        
+        const form = e.target;
+        const formData = new FormData();
+        formData.append('entry.604627084', form.name.value);
+        formData.append('entry.1524815180', form.email.value);
+        formData.append('entry.1407456875', form.message.value);
+
+        try {
+            await fetch("https://docs.google.com/forms/u/0/d/e/1FAIpQLSfNZteJcXSfc4Zv73fqOJ6-Y8u0ShlslhRniS8O_g6Gc5pwLg/formResponse", {
+                method: "POST",
+                body: formData,
+                mode: "no-cors"
+            });
             setStatus('success');
+            setOpenSnackbar(true);
+            form.reset();
             setTimeout(() => setStatus('idle'), 3000);
-        }, 1500);
+        } catch (error) {
+            console.error("Error submitting form", error);
+            setStatus('idle');
+        }
     };
 
     return (
@@ -109,6 +133,7 @@ const ContactSection = () => {
                             <Box component="form" onSubmit={handleSubmit} sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
                                 <TextField
                                     fullWidth
+                                    name="name"
                                     label="Your Name"
                                     variant="outlined"
                                     required
@@ -116,6 +141,7 @@ const ContactSection = () => {
                                 />
                                 <TextField
                                     fullWidth
+                                    name="email"
                                     label="Your Email"
                                     type="email"
                                     variant="outlined"
@@ -124,6 +150,7 @@ const ContactSection = () => {
                                 />
                                 <TextField
                                     fullWidth
+                                    name="message"
                                     label="Your Message"
                                     multiline
                                     rows={5}
@@ -149,6 +176,17 @@ const ContactSection = () => {
                     </Grid>
                 </Paper>
             </Container>
+
+            <Snackbar
+                open={openSnackbar}
+                autoHideDuration={6000}
+                onClose={handleCloseSnackbar}
+                anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+            >
+                <Alert onClose={handleCloseSnackbar} severity="success" sx={{ width: '100%' }} variant="filled">
+                    Message sent successfully! I'll get back to you soon.
+                </Alert>
+            </Snackbar>
         </Box>
     );
 };

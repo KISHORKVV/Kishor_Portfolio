@@ -14,6 +14,7 @@ import {
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import DownloadIcon from '@mui/icons-material/Download';
 
 const navItems = ['Home', 'About', 'Skills', 'Experience', 'Services', 'Projects'];
 
@@ -77,6 +78,18 @@ const Navbar = () => {
                     </ListItem>
                 ))}
                 <ListItem disablePadding sx={{ mt: 2, px: 2 }}>
+                    <Button
+                        variant="contained"
+                        fullWidth
+                        href="https://drive.google.com/file/d/1oR2AyvzpTCSTCXOkOwIGTw_F1ks-BmIq/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        endIcon={<DownloadIcon />}
+                    >
+                        Resume
+                    </Button>
+                </ListItem>
+                <ListItem disablePadding sx={{ mt: 1, px: 2 }}>
                     <Button
                         variant="outlined"
                         fullWidth
@@ -151,6 +164,26 @@ const Navbar = () => {
                                     {item}
                                 </Button>
                             ))}
+                            <Button
+                                variant="contained"
+                                href="https://drive.google.com/file/d/1oR2AyvzpTCSTCXOkOwIGTw_F1ks-BmIq/view?usp=drive_link"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                endIcon={<DownloadIcon />}
+                                sx={{
+                                    borderRadius: '20px',
+                                    py: 0.5,
+                                    px: 2,
+                                    mr: 1,
+                                    boxShadow: '0 4px 14px 0 rgba(99, 102, 241, 0.39)',
+                                    '&:hover': {
+                                        transform: 'translateY(-2px)',
+                                        boxShadow: '0 6px 20px rgba(99, 102, 241, 0.4)'
+                                    }
+                                }}
+                            >
+                                Resume
+                            </Button>
                             <Button
                                 variant="outlined"
                                 href="#contact"
