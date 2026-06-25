@@ -3,28 +3,44 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const projects = [
     {
-        title: "Entregar Payroll & HR",
-        desc: "Full-stack Employee Payroll Management System with real-time attendance tracking, automated salary deductions, and dynamic reporting dashboards.",
-        tech: ["Django REST", "React", "PostgreSQL"],
-        link: "https://github.com/KISHORKVV/Entregar",
-        imgBg: "linear-gradient(45deg, #111, #222)",
-        imgText: "Entregar System"
+        title: "JK Watches",
+        desc: "A full-stack e-commerce platform for watch sales with product management and user authentication; implemented REST APIs to improve browsing and purchasing.",
+        tech: ["Django", "React", "PostgreSQL", "Vercel", "Render"],
+        link: "https://github.com/KISHORKVV",
+        imgBg: "linear-gradient(45deg, #0f2027, #203a43, #2c5364)",
+        imgText: "JK Watches"
     },
     {
-        title: "Diet Plan System",
-        desc: "A web application that generates personalized fat-loss diet plans with daily calorie tracking and curated meal suggestions.",
+        title: "Diet Planner",
+        desc: "A calorie tracking application built with a responsive UI and backend logic to enable accurate daily nutrition and meal monitoring.",
         tech: ["Django", "Python", "HTML/CSS"],
         link: "https://github.com/KISHORKVV/Diet-Plan",
         imgBg: "linear-gradient(45deg, #1a1a2e, #16213e)",
-        imgText: "Diet Plan"
+        imgText: "Diet Planner"
     },
     {
-        title: "Villa Agency Booking",
-        desc: "A web platform for booking luxury villas for vacation stays, allowing users to browse properties and schedule bookings.",
+        title: "Notes App",
+        desc: "An Android application designed for managing daily tasks and notes efficiently through a user-friendly, responsive interface.",
+        tech: ["Android CLI", "SQLite", "Java"],
+        link: "https://github.com/KISHORKVV",
+        imgBg: "linear-gradient(45deg, #111, #222)",
+        imgText: "Notes App"
+    },
+    {
+        title: "Villa Agency",
+        desc: "A villa booking platform featuring dynamic listings and interactive user engagement tools for holiday stays.",
         tech: ["Django", "HTML5", "CSS3"],
         link: "https://github.com/KISHORKVV/Villa-agency",
-        imgBg: "linear-gradient(45deg, #0f2027, #203a43, #2c5364)",
+        imgBg: "linear-gradient(45deg, #3a7bd5, #3a6073)",
         imgText: "Villa Agency"
+    },
+    {
+        title: "Carvilla",
+        desc: "A vehicle rental management system featuring separate admin and customer modules for streamlined booking and fleet operations.",
+        tech: ["Django", "Python", "HTML/CSS"],
+        link: "https://github.com/KISHORKVV",
+        imgBg: "linear-gradient(45deg, #134e5e, #71b280)",
+        imgText: "Carvilla"
     }
 ];
 
@@ -39,7 +55,7 @@ const ProjectsSection = () => {
 
                 <Grid container spacing={4} justifyContent="center" mt={2}>
                     {projects.map((project, index) => (
-                        <Grid size={{ xs: 12, md: 4 }} key={index}>
+                        <Grid size={{ xs: 12, sm: 6, md: 4 }} key={index}>
                             <Paper
                                 elevation={0}
                                 sx={{

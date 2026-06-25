@@ -2,10 +2,12 @@ import { Box, Container, Typography, Chip } from '@mui/material';
 
 const SkillsSection = () => {
     const skillsData = [
-        { title: "Languages & Frameworks", items: ['Python', 'Django', 'Django REST Framework', 'React', 'Redux', 'HTML5', 'CSS3'], color: 'primary.main' },
-        { title: "Database & Real-Time", items: ['PostgreSQL', 'SQLite', 'WebSockets', 'Celery'], color: 'secondary.main' },
-        { title: "Tools & Platforms", items: ['Git', 'GitHub', 'REST APIs'], color: '#10b981' },
-        { title: "Soft Skills", items: ['Problem Solving', 'Critical Thinking', 'Time Management', 'Communication'], color: '#f59e0b' }
+        { title: "Languages & Frameworks", items: ['Python', 'Django', 'Django REST Framework', 'JavaScript', 'React', 'Redux'], color: 'primary.main' },
+        { title: "Databases", items: ['PostgreSQL', 'SQLite', 'Database Optimization & Caching'], color: 'secondary.main' },
+        { title: "APIs & Real-Time", items: ['REST API Development', 'WebSockets', 'Celery', 'JWT Authentication'], color: '#10b981' },
+        { title: "Tools & Practices", items: ['Git', 'GitHub', 'Agile Collaboration', 'Role-Based Access Control'], color: '#f59e0b' },
+        { title: "Deployment & DevOps", items: ['Render', 'Vercel', 'AWS', 'CI/CD Pipelines'], color: '#8b5cf6' },
+        { title: "AI / ML & LLM", items: ['Prompt Engineering', 'LLM Integration', 'AI Fundamentals', 'Applied AI Literacy'], color: '#ec4899' }
     ];
 
     const renderChip = (label) => (

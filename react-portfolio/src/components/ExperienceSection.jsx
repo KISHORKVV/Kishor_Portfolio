@@ -8,24 +8,27 @@ import TimelineDot from '@mui/lab/TimelineDot';
 
 const experiences = [
     {
-        role: "Software Engineer (Full-Stack)",
+        role: "Software Engineer (Full Stack)",
         company: "Entregar Solutions - Kollam, India",
-        date: "June 2025 - Present",
+        date: "Jun 2025 - Dec 2025",
         details: [
-            "Developed a full-stack Employee Payroll Management System using Django REST Framework (backend), React (frontend), and PostgreSQL with role-based authentication.",
-            "Implemented real-time attendance tracking with late mark detection, auto half-day salary deductions, and integrated email/SMS notifications.",
-            "Built dynamic dashboards and reporting features with interactive UI using React and FullCalendar.",
-            "Integrated secure APIs for employee registration, meeting scheduling, and holiday management.",
-            "Designed and optimized payroll module including department-wise salary structures and automated monthly paysheet generation."
+            "Developed a full-stack Employee Management system supporting 50+ users with role-based authentication, improving operational efficiency by 30%.",
+            "Built a production-grade Loan Management System handling the complete loan lifecycle, reducing manual processing effort by 40%.",
+            "Designed and integrated REST APIs for loan tracking, EMI schedules, and borrower data, improving system reliability and scalability.",
+            "Built interactive dashboards for attendance and payroll, reducing report generation time by 35%.",
+            "Optimized database queries and implemented caching strategies, reducing API response time by 30%.",
+            "Implemented secure authentication and authorization workflows, ensuring data protection and access control."
         ]
     },
     {
-        role: "Intern Django Developer",
-        company: "Yuva Tech Solutions - Sreekariyam, Trivandrum",
+        role: "Django Developer Intern",
+        company: "Yuva Tech Solutions - Trivandrum",
         date: "Feb 2024 - Dec 2024",
         details: [
-            "Responsible for creating and maintaining web applications using the Django framework and Python.",
-            "Refined legacy Django codebase by upgrading dependencies, restructuring models, and optimizing database queries to enhance maintainability and system responsiveness."
+            "Developed and maintained Django-based applications, supporting multiple client deployments.",
+            "Refactored legacy code and optimized database queries, improving performance by 25%.",
+            "Enhanced application stability and maintainability through code restructuring and dependency upgrades.",
+            "Collaborated with cross-functional team members to deliver production-ready features on schedule."
         ]
     }
 ];

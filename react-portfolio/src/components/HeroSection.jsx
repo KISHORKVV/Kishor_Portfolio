@@ -8,10 +8,10 @@ import WorkIcon from '@mui/icons-material/Work';
 const HeroSection = () => {
     const theme = useTheme();
     const texts = [
-        "Full Stack Python Django Developer",
-        "React Frontend Enthusiast",
-        "API & Backend Architect",
-        "Problem Solver"
+        "Full Stack Developer",
+        "Python & Django Specialist",
+        "React Frontend Developer",
+        "API & Backend Architect"
     ];
 
     const [currentText, setCurrentText] = useState("");
@@ -87,7 +87,7 @@ const HeroSection = () => {
                         </Typography>
 
                         <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: '1.1rem', mb: 4, maxWidth: 500, mx: { xs: 'auto', md: 0 } }}>
-                            A passionate tech enthusiast and self-taught developer building scalable, real-world web applications. I specialize in secure, performance-driven backend systems using Django.
+                            Full Stack Developer with 1+ year of experience designing and building scalable web applications. I specialize in secure, performance-driven backend systems using Django and dynamic frontend applications using React.
                         </Typography>
 
                         <Box sx={{ display: 'flex', gap: 2, mb: 4, justifyContent: { xs: 'center', md: 'flex-start' }, flexWrap: 'wrap' }}>

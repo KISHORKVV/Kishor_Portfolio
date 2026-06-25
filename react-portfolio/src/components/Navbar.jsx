@@ -16,7 +16,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import DownloadIcon from '@mui/icons-material/Download';
 
-const navItems = ['Home', 'About', 'Skills', 'Experience', 'Services', 'Projects'];
+const navItems = ['Home', 'About', 'Skills', 'Experience', 'Education', 'Services', 'Projects'];
 
 const Navbar = () => {
     const [mobileOpen, setMobileOpen] = useState(false);
@@ -81,7 +81,12 @@ const Navbar = () => {
                     <Button
                         variant="contained"
                         fullWidth
+<<<<<<< HEAD
                         href="https://drive.google.com/file/d/1okjC2ORWuyw3TQ-hknUP1Fy8snK4aYiH/view?usp=sharing"
+=======
+
+                        href="https://drive.google.com/file/d/1el4ujv6Ei144ewl40_R0RP3DPihasvhy/view?usp=sharing"
+>>>>>>> 5544ef5 (Update project)
                         target="_blank"
                         rel="noopener noreferrer"
                         endIcon={<DownloadIcon />}
@@ -166,7 +171,7 @@ const Navbar = () => {
                             ))}
                             <Button
                                 variant="contained"
-                                href="https://drive.google.com/file/d/1oR2AyvzpTCSTCXOkOwIGTw_F1ks-BmIq/view?usp=drive_link"
+                                href="https://drive.google.com/file/d/1el4ujv6Ei144ewl40_R0RP3DPihasvhy/view?usp=sharing"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 endIcon={<DownloadIcon />}

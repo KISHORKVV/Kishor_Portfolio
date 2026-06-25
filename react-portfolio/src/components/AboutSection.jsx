@@ -65,13 +65,13 @@ const AboutSection = () => {
                                 Building Scalable & Secure Systems
                             </Typography>
                             <Typography variant="body1" color="text.secondary" paragraph sx={{ fontSize: '1.05rem' }}>
-                                I am a <Box component="span" sx={{ color: 'primary.main', fontWeight: 'bold' }}>Detail-oriented Full Stack Developer</Box> with hands-on experience in building scalable, secure, and high-performance web applications using Django, Django REST Framework, React, and PostgreSQL.
+                                I am a <Box component="span" sx={{ color: 'primary.main', fontWeight: 'bold' }}>Detail-oriented Full Stack Developer</Box> with 1+ year of experience designing and building scalable web applications using Python, Django, Django REST Framework, React, and PostgreSQL.
                             </Typography>
                             <Typography variant="body1" color="text.secondary" paragraph sx={{ fontSize: '1.05rem' }}>
-                                Currently contributing to real-world enterprise systems including Employee Payroll and Loan Management platforms. I have a strong foundation in backend architecture, REST APIs, real-time features, and role-based systems.
+                                Skilled in REST API design, authentication systems, and database optimization. I have successfully delivered enterprise-grade Employee Management and Loan Management systems with real-time features for production environments, focusing on clean code, database performance, and scalable backend architecture.
                             </Typography>
                             <Typography variant="body1" color="text.secondary" sx={{ fontSize: '1.05rem' }}>
-                                Passionate about clean code, system optimization, and continuous learning.
+                                Passionate about prompt engineering, LLM integration, clean code development, and creating measurable business impact.
                             </Typography>
                         </Box>
                     </Grid>
