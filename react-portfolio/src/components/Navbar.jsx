@@ -82,10 +82,10 @@ const Navbar = () => {
                         variant="contained"
                         fullWidth
 
-                        href="https://drive.google.com/file/d/1okjC2ORWuyw3TQ-hknUP1Fy8snK4aYiH/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1953zKn-Is82CuUMJ0IHeibRkD62jrL-0/view?usp=drive_link"
 
 
-                        href="https://drive.google.com/file/d/1el4ujv6Ei144ewl40_R0RP3DPihasvhy/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1953zKn-Is82CuUMJ0IHeibRkD62jrL-0/view?usp=drive_link"
                         target="_blank"
                         rel="noopener noreferrer"
                         endIcon={<DownloadIcon />}
@@ -170,7 +170,7 @@ const Navbar = () => {
                             ))}
                             <Button
                                 variant="contained"
-                                href="https://drive.google.com/file/d/1el4ujv6Ei144ewl40_R0RP3DPihasvhy/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1953zKn-Is82CuUMJ0IHeibRkD62jrL-0/view?usp=drive_link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 endIcon={<DownloadIcon />}
