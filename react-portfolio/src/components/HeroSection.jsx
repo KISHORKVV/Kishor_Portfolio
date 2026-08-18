@@ -87,7 +87,7 @@ const HeroSection = () => {
                         </Typography>
 
                         <Typography variant="body1" sx={{ color: 'text.secondary', fontSize: '1.1rem', mb: 4, maxWidth: 500, mx: { xs: 'auto', md: 0 } }}>
-                            Full Stack Developer with 1+ year of experience designing and building scalable web applications. I specialize in secure, performance-driven backend systems using Django and dynamic frontend applications using React.
+                            Full Stack Developer with 2+ years of combined professional experience across freelance development, internship, and client-facing roles. Skilled in building scalable web applications using Python, Django, React, and PostgreSQL.
                         </Typography>
 
                         <Box sx={{ display: 'flex', gap: 2, mb: 4, justifyContent: { xs: 'center', md: 'flex-start' }, flexWrap: 'wrap' }}>
