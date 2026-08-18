@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Box, Container, Typography, Grid, TextField, Button, Paper, Snackbar, Alert } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import PhoneIcon from '@mui/icons-material/Phone';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import SendIcon from '@mui/icons-material/Send';
@@ -90,7 +91,16 @@ const ContactSection = () => {
                                     </Box>
                                     <Box>
                                         <Typography variant="subtitle2" color="text.secondary">Email</Typography>
-                                        <Typography variant="body1" fontWeight={600}>kishor.k7v@gmail.com</Typography>
+                                        <Typography variant="body1" fontWeight={600}>imkishorkv@gmail.com</Typography>
+                                    </Box>
+                                </Box>
+                                <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+                                    <Box sx={{ width: 50, height: 50, bgcolor: 'rgba(255,255,255,0.05)', borderRadius: 3, display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'primary.main', border: '1px solid', borderColor: 'divider' }}>
+                                        <PhoneIcon />
+                                    </Box>
+                                    <Box>
+                                        <Typography variant="subtitle2" color="text.secondary">Phone</Typography>
+                                        <Typography variant="body1" fontWeight={600}>+971 52 307 8318</Typography>
                                     </Box>
                                 </Box>
                                 <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
@@ -99,7 +109,7 @@ const ContactSection = () => {
                                     </Box>
                                     <Box>
                                         <Typography variant="subtitle2" color="text.secondary">Location</Typography>
-                                        <Typography variant="body1" fontWeight={600}>Available Worldwide (Remote)</Typography>
+                                        <Typography variant="body1" fontWeight={600}>Dubai, UAE (Al Qusais Industrial Area)</Typography>
                                     </Box>
                                 </Box>
                             </Box>
