@@ -65,13 +65,13 @@ const AboutSection = () => {
                                 Building Scalable & Secure Systems
                             </Typography>
                             <Typography variant="body1" color="text.secondary" paragraph sx={{ fontSize: '1.05rem' }}>
-                                I am a <Box component="span" sx={{ color: 'primary.main', fontWeight: 'bold' }}>Detail-oriented Full Stack Developer</Box> with 1+ year of experience designing and building scalable web applications using Python, Django, Django REST Framework, React, and PostgreSQL.
+                                I am a <Box component="span" sx={{ color: 'primary.main', fontWeight: 'bold' }}>Detail-oriented Full Stack Developer</Box> with 2+ years of combined professional experience across freelance development, internship, and client-facing roles. Skilled in building scalable web applications using Python, Django, Django REST Framework, React, and PostgreSQL.
                             </Typography>
                             <Typography variant="body1" color="text.secondary" paragraph sx={{ fontSize: '1.05rem' }}>
-                                Skilled in REST API design, authentication systems, and database optimization. I have successfully delivered enterprise-grade Employee Management and Loan Management systems with real-time features for production environments, focusing on clean code, database performance, and scalable backend architecture.
+                                Delivered enterprise-grade Employee Management and Loan Management systems for production environments. Experienced in REST API design, database optimization, secure authentication, and cloud deployment on Render and Vercel.
                             </Typography>
                             <Typography variant="body1" color="text.secondary" sx={{ fontSize: '1.05rem' }}>
-                                Passionate about prompt engineering, LLM integration, clean code development, and creating measurable business impact.
+                                Holds certifications in AI, Prompt Engineering, and Data Analytics from AWS, IBM, Deloitte, and Dubai Future Foundation. Strong communicator with a proven ability to work across both technical and client-facing environments.
                             </Typography>
                         </Box>
                     </Grid>
