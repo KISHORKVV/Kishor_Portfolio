@@ -18,6 +18,11 @@ const EducationSection = () => {
 
     const certificationsData = [
         {
+            title: "1 Million Prompters",
+            provider: "Dubai Future Foundation & Dubai Centre for Artificial Intelligence",
+            date: "2026",
+        },
+        {
             title: "Foundations of Prompt Engineering",
             provider: "AWS Training & Certification",
             date: "June 2026",
