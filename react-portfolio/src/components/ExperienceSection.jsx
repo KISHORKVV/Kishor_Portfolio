@@ -8,9 +8,9 @@ import TimelineDot from '@mui/lab/TimelineDot';
 
 const experiences = [
     {
-        role: "Software Engineer (Full Stack)",
-        company: "Entregar Solutions - Kollam, India",
-        date: "Jun 2025 - Dec 2025",
+        role: "Freelance Full Stack Developer",
+        company: "Entregar Solutions — Kollam, India (Freelance · Remote)",
+        date: "Jun 2025 – Dec 2025",
         details: [
             "Developed a full-stack Employee Management system supporting 50+ users with role-based authentication, improving operational efficiency by 30%.",
             "Built a production-grade Loan Management System handling the complete loan lifecycle, reducing manual processing effort by 40%.",
@@ -21,9 +21,22 @@ const experiences = [
         ]
     },
     {
+        role: "Relationship Executive",
+        company: "Genius HRTech Limited — Ernakulam, India (Full-time · On-site)",
+        date: "Jan 2025 – May 2025",
+        details: [
+            "Assisted SBI Bank in promoting and processing credit card applications through direct customer interaction and field engagement.",
+            "Identified and approached potential customers, explained product features and eligibility criteria, and guided them through the application process.",
+            "Maintained client relationships ensuring customer satisfaction and timely resolution of queries.",
+            "Collaborated with the SBI Bank credit card team to achieve monthly sales targets and maintain high-quality service standards.",
+            "Collected and verified customer documentation in compliance with SBI Bank KYC and policy requirements.",
+            "Reported daily performance metrics and supported branch-level promotional campaigns."
+        ]
+    },
+    {
         role: "Django Developer Intern",
-        company: "Yuva Tech Solutions - Trivandrum",
-        date: "Feb 2024 - Dec 2024",
+        company: "Yuva Tech Solutions — Trivandrum (Internship · On-site)",
+        date: "Feb 2024 – Dec 2024",
         details: [
             "Developed and maintained Django-based applications, supporting multiple client deployments.",
             "Refactored legacy code and optimized database queries, improving performance by 25%.",
